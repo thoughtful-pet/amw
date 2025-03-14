@@ -1,6 +1,6 @@
 # AMW: another markup way
 
-In prevalent terms AMW is a markup language, but this is not the case in terms of common sense.
+In prevalent terms AMW is a markup language, but that's not quite correct in terms of common sense.
 
 AMW is inspired by YAML, but strictly speaking, YAML is not a language, it's rather a way of markup.
 Moreover, it's a superset of JSON where N stands for Notation.
