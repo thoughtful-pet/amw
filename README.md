@@ -47,7 +47,8 @@ Avoid using tabs.
 * signed integer
 * unsigned integer
 * float
-* date/time
+* date/time (TODO)
+* timestamp (TODO)
 * string
 * list
 * map
