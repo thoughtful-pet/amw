@@ -410,9 +410,9 @@ distance: 25.5 plus # bad markup
 ## Type deduction rules
 
 * `null` optionally followed by `#` or `:<SP>` or `:<LF>`: null value, otherwise it's a literal string
-* `true | false` optionally followed by `#` or `:<SP>` or `:<LF>`: boolean value, otherwise it's a literal string
-* `+ | -` followed by parseable number which in turn is followed by `#` or `:<SP>` or `:<LF>`: numeric value;
+* `true` | `false` optionally followed by `#` or `:<SP>` or `:<LF>`: boolean value, otherwise it's a literal string
+* `+` | `-` followed by parseable number which in turn is followed by `#` or `:<SP>` or `:<LF>`: numeric value;
   if followed by anything else, it's a literal string
 * `"|'`: quoted string
-* `-<SP`: list item
+* `-<SP>`: list item
 * `:<SP>` or `:<LF>` in a literal string: key/value pair of a map
